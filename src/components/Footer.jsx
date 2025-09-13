@@ -16,7 +16,7 @@ export default function Footer() {
 
         {/* Liens rapides */}
         <div>
-          <h4 className='text-lg font-semibold mb-3'>Navigation</h4>
+          <h4 className='text-lg font-semibold mb-3'>Liens Utiles</h4>
           <ul className='space-y-2 text-sm'>
             <li><a href="#home" className='hover:text-amber-500 duration-300'>Accueil</a></li>
             <li><a href="#menu" className='hover:text-amber-500 duration-300'>Menu</a></li>
@@ -29,9 +29,9 @@ export default function Footer() {
         <div>
           <h4 className='text-lg font-semibold mb-3'>Suivez-nous</h4>
           <div className='flex justify-center md:justify-start gap-4 text-amber-500 text-xl'>
-            <a href='https://facebook.com' target='_blank' rel='noreferrer'><FaFacebookF /></a>
-            <a href='https://instagram.com' target='_blank' rel='noreferrer'><FaInstagram /></a>
-            <a href='https://twitter.com' target='_blank' rel='noreferrer'><FaTwitter /></a>
+            <a href='https://facebook.com' target='_blank' rel='noreferrer'><i class="ri-facebook-box-fill"></i></a>
+            <a href='https://instagram.com' target='_blank' rel='noreferrer'><i class="ri-instagram-line"></i></a>
+            <a href='https://twitter.com' target='_blank' rel='noreferrer'><i class="ri-twitter-x-line"></i></a>
           </div>
         </div>
       </div>

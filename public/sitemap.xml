@@ -3,19 +3,19 @@
   xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
 >
   <url>
-    <loc>https://ton-site.render.com/</loc>
+    <loc>https://foodie-spot.onrender.com/</loc>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://ton-site.render.com/menu</loc>
+    <loc>https://foodie-spot.onrender.com/#menu</loc>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://ton-site.render.com/services</loc>
+    <loc>https://foodie-spot.onrender.com/#services</loc>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://ton-site.render.com/about</loc>
+    <loc>https://foodie-spot.onrender.com/#about</loc>
     <priority>0.8</priority>
   </url>
 </urlset>
