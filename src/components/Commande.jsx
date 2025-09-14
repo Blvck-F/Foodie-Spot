@@ -44,7 +44,7 @@ export default function Commande() {
   };
 
   return (
-    <section className='py-20 px-6 md:px-24 bg-gray-100 relative'>
+    <section className='py-20 px-6 md:px-24 relative'>
       <h2 className='text-4xl font-bold text-center mb-12'>Commandez votre Menu</h2>
 
       <form
@@ -58,7 +58,7 @@ export default function Commande() {
             <div className='grid md:grid-cols-3 gap-4'>
               {/* Menu */}
               <div>
-                <label className='block font-medium mb-1'>Menu (facultatif)</label>
+                <label className='block font-medium mb-1'>Menu</label>
                 <select
                   name='menu'
                   value={commande.menu}
@@ -74,7 +74,7 @@ export default function Commande() {
 
               {/* Boisson */}
               <div>
-                <label className='block font-medium mb-1'>Boisson (facultatif)</label>
+                <label className='block font-medium mb-1'>Boisson</label>
                 <select
                   name='boisson'
                   value={commande.boisson}
