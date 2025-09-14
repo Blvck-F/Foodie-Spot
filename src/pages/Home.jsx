@@ -5,6 +5,7 @@ import About from '../components/About'
 import Services from '../components/Services'
 import Menu from '../components/Menu'
 import Footer from '../components/Footer'
+import Contact from '../components/Commande'
 
 export default function Home({ toggleBooking }) {
   return (
@@ -14,6 +15,7 @@ export default function Home({ toggleBooking }) {
       <About />
       <Menu />
       <Services />
+      <Contact />
       <Footer />
     </>
   )
